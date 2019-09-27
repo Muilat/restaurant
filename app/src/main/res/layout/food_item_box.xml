@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_food"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food"
+                />
+            <ImageView
+                android:id="@+id/img_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_outline"
+                android:layout_gravity="end"
+                android:padding="8dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite"
+                android:layout_gravity="center|end"
+                android:padding="8dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shopping_cart_accent"
+                android:layout_gravity="bottom|end"
+                android:padding="8dp"
+                />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_food_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muilat res"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muilat res"
+            android:layout_marginStart="@dimen/edt_padding"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#2000"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                />
+
+            <RatingBar
+                android:id="@+id/food_rating"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:stepSize="5"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+        
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

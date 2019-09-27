@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD4D3D</color>
+    <color name="colorPrimaryDark">#FD1F2A</color>
+    <color name="colorAccent">#FF00BB</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlackLight">#344655</color>
+    <color name="colorNavDark">#707070</color>
+    <color name="colorGray">#CACACA</color>
+    <color name="colorBlue">#09bee4</color>
+    <color name="priceBackground">#3CCC09</color>
+    <color name="lightBlack">#85292020</color>
+    <color name="colorHead">#6D6868</color>
+
+</resources>

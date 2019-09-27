@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="must_grant_permisssion">You must grant permission to you this app</string>
+    <string name="email">Email</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="address">Address</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="NearBy_res">Near by Restaurants</string>
+    <string name="my_info">My Info</string>
+    <string name="order_history">Order History</string>
+    <string name="loading">Loading, please wait...</string>
+    <string name="food_menu">Food Menu</string>
+    <string name="edit">Edit</string>
+    <string name="foods">Foods</string>
+    <string name="food_added_to_cart">Food added to cart</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="sale_price">&#x20A6;%1$s \n Sale Price</string>
+    <string name="search">Search</string>
+    <string name="no_result_found">No result found!</string>
+    <string name="login_to_cont">Please, login to continue</string>
+    <string name="check_out">Check Out</string>
+</resources>
